@@ -1,0 +1,33 @@
+body{
+     margin: 0;
+     padding: 0;
+     background: #000000;
+}
+
+ul{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 0;
+    padding: 10px 0;
+    background: #000000;
+    display: flex; 
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    display: block;  
+    /* border-left: 1px solid rgba(255, 255, 255, 0.2); */
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0 30px;
+    display: block;
+}
+
