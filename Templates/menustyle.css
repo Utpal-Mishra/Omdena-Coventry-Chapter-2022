@@ -6,7 +6,7 @@ body{
 
 ul{
     position: absolute;
-    top: 90%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, 50%);
     margin: 0;
@@ -29,5 +29,4 @@ ul li a{
     text-decoration: none;
     padding: 0 30px;
     display: block;
-}
-
+}   
