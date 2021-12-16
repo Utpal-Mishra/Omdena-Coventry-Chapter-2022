@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<!-- https://www.youtube.com/watch?v=HHZnE_hRGs4 - Short Content -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Write Ups (Short Content)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.defaault.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="shortcontent.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="slider" class="owl-carousel">
+            <!-- 1 -->
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src = "images/ML.jpg" alt = "1"</div>
+                    <h2>TOPIC</h2>
+                    <p2>Brief</p2>
+                    <p class="socials">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('#slider').owlCarousel({
+            loop:true,
+            margin:15,
+            nav:false,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

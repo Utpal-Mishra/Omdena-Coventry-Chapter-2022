@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    background: black;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: cover;
+    min-height: 100vh;
+}
+
+#slider{
+    margin-top: 15%;
+}
+
+.img-area{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-area img{
+    width: 10%;
+}
+
+.content{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 25px;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: 70;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

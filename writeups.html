@@ -1,45 +1,33 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>    
-        <meta charset = "UTF-8"> 
-        <title>The Palm</title>
-        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-        <link rel = "stylesheet" type = "text/css" href = "writeups.css">
-</head>    
-<body>
+<html>
 
-    <section>
-        <!-- Swiper -->
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"></div>
-          </div>
-        </div>        
-    </section>
+<head>
+    <meta charset="UTF-8">
+    <title>Write Ups (Short Content)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.defaault.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="writeup.css">
+</head>
+
+<body>
     
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <div class="container">
+        <div id="slider" class="owl-carousel">
+            <div class="content-area">
+                <div class="img-area">img src="img/controls.png" alt=""></div>
+                <h2></h2>
+                <p2></p2>
+                <p class="socials">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </p>
+            </div>
+        </div>
+    </div>
     
-    <!-- Initialize Swiper -->
-    <script>
-          var swiper = new Swiper(".swiper-container", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            coverflowEffect: {
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
-            },
-            pagination: {
-              el: ".swiper-pagination",
-            },
-          });
-    </script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarouse2/2.3.4/owl.carousel.min.js"></script>
 </body>
 
-       
 </html>
