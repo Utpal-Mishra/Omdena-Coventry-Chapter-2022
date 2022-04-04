@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
 body{
      margin: 0;
      padding: 0;
      display: flex;
+     font-family: 'Poppins';
      justify-content: center;
      align-items: center;
      background: #000000;
@@ -24,9 +27,21 @@ bottom {
     background-color: black;
 }
 
+p{
+    font-size: 10px;
+    line-height: 10px;
+    background: url(images/me.jpg);
+    background-size: 600px 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
 /* top section */
 .text-content{
-    background-image: url(red_lights.jpg);
+    background-image: url(RedLights.jpg);
     background-position: 13% 13%;
     background-repeat: repeat;
     -webkit-background-size: cover;
@@ -47,7 +62,6 @@ bottom {
 
 
 /* bottom section */
-
 ul{
     position: absolute;
     top: 90%;
